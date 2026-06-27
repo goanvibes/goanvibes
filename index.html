@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sergio Fernandes — ColourXD Portfolio</title>
+  <meta name="description" content="The living portfolio of Sergio Fernandes — ColourXD. Websites, branding, books, creative identities, and dark colourful overgrowth worlds." />
+  <meta name="theme-color" content="#06100f" />
+  <meta property="og:title" content="Sergio Fernandes — ColourXD" />
+  <meta property="og:description" content="A dark colourful jungle portfolio for design, brands, books, and creative identities." />
+  <meta property="og:image" content="social-preview.webp" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="preload" as="image" href="mobile-jungle-hero.webp" media="(max-width: 860px)" />
+  <link rel="preload" as="image" href="mobile-overgrowth-top-left.webp" media="(max-width: 860px)" />
+  <link rel="preload" as="image" href="mobile-overgrowth-bottom-right.webp" media="(max-width: 860px)" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-mood="verdant">
+  <canvas id="sporeCanvas" aria-hidden="true"></canvas>
+  <div class="cursor-aura" aria-hidden="true"></div>
+  <div class="living-bg" aria-hidden="true">
+    <div class="bg-shade"></div>
+    <img class="corner corner-left desktop-corner" src="overgrowth-top-left.png" alt="" />
+    <img class="corner corner-right desktop-corner" src="overgrowth-bottom-right.png" alt="" />
+    <img class="mobile-corner mobile-corner-left" src="mobile-overgrowth-top-left.webp" alt="" />
+    <img class="mobile-corner mobile-corner-right" src="mobile-overgrowth-bottom-right.webp" alt="" />
+    <div class="root-grid"></div>
+  </div>
+
+  <button class="mobile-menu" aria-label="Open navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <aside class="side-reef" aria-label="Main navigation">
+    <a class="brand-lockup" href="#home" aria-label="Sergio Fernandes home">
+      <span class="sigil">SF</span>
+      <span class="brand-name">Sergio Fernandes</span>
+      <span class="brand-alias">ColourXD / शस्फ</span>
+    </a>
+    <nav>
+      <a href="#home" class="nav-link active"><span>⌂</span>Home</a>
+      <a href="#about" class="nav-link"><span>◌</span>About</a>
+      <a href="#projects" class="nav-link"><span>▦</span>Projects</a>
+      <a href="#books" class="nav-link"><span>▤</span>Books</a>
+      <a href="#identities" class="nav-link"><span>✦</span>Identities</a>
+      <a href="#services" class="nav-link"><span>✎</span>Services</a>
+      <a href="#contact" class="nav-link"><span>↗</span>Contact</a>
+    </nav>
+    <div class="sidebar-poem">
+      <p>Designing worlds.<br>Building brands.<br>Growing stories.</p>
+    </div>
+    <div class="sidebar-links" aria-label="Quick links">
+      <a href="mailto:colourxd.23@gmail.com" aria-label="Email ColourXD">@</a>
+      <a href="https://www.youtube.com/@ColourXD" aria-label="YouTube ColourXD">▶</a>
+      <a href="#contact" aria-label="Minecraft username">▣</a>
+      <a href="#projects" aria-label="Project garden">✧</a>
+    </div>
+  </aside>
+
+  <main class="world-shell">
+    <section id="home" class="hero section-pad" data-section>
+      <div class="hero-backplate"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> Creator • Designer • Dreamer</div>
+        <h1><span>Sergio</span><strong>Fernandes</strong></h1>
+        <p class="signature">ColourXD</p>
+        <p class="hero-text">I craft living digital experiences, bold brands, and stories that feel like they grew somewhere between code, dreams, and Goa’s rain-soaked edges.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore my work <i>✦</i></a>
+          <a class="btn ghost" href="#contact">Let’s connect <i>↗</i></a>
+        </div>
+      </div>
+      <div class="hero-orbit reveal delay-1" aria-label="Profile identity card">
+        <div class="avatar-ring">
+          <div class="avatar-core"><span>ColourXD</span></div>
+        </div>
+        <div class="floating-note top">Reality is optional.<br>Imagination is the fuel.</div>
+        <div class="connect-card glass">
+          <h3>Connect with me</h3>
+          <a href="https://www.youtube.com/@ColourXD"><b class="yt">▶</b><span>YouTube: ColourXD</span><i>→</i></a>
+          <a href="#contact"><b class="mc">▣</b><span>Minecraft: ColourXD</span><i>→</i></a>
+          <a href="mailto:colourxd.23@gmail.com"><b class="mail">✉</b><span>colourxd.23@gmail.com</span><i>→</i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-pad split-grid" data-section>
+      <article class="glass about-card reveal">
+        <div class="section-kicker green">About</div>
+        <h2>A young builder of brands, books, worlds, and strange little sparks.</h2>
+        <p>I’m Sergio Fernandes — also ColourXD — a Goa-based creator working between web design, branding, writing, school projects, visual identities, and experimental digital ideas. I like things that feel handmade, alive, slightly impossible, and still useful enough to convert a visitor into a client.</p>
+        <p class="soft-line">Fuelerz is where the business side burns. ColourlessDreams is where the atmosphere softens. SpecialAutopsy is where the darker, sharper work gets dissected. ColourXD is the player tag running through all of it.</p>
+        <div class="micro-stats">
+          <span><b>Goa</b><small>base</small></span>
+          <span><b>ColourXD</b><small>Minecraft + YouTube</small></span>
+          <span><b>Fuelerz</b><small>web + branding</small></span>
+        </div>
+      </article>
+      <article class="glass life-card reveal delay-1">
+        <div class="section-kicker cyan">Living System</div>
+        <div class="system-map">
+          <button data-pulse="Fuelerz"><span>⚡</span>Fuelerz</button>
+          <button data-pulse="ColourlessDreams"><span>☾</span>ColourlessDreams</button>
+          <button data-pulse="SpecialAutopsy"><span>☠</span>SpecialAutopsy</button>
+          <button data-pulse="ColourXD"><span>▣</span>ColourXD</button>
+          <button data-pulse="शस्फ"><span>✦</span>शस्फ</button>
+        </div>
+        <p id="pulseText">Tap any identity to wake a different part of the jungle.</p>
+      </article>
+    </section>
+
+    <section id="projects" class="section-pad" data-section>
+      <div class="section-head reveal">
+        <div>
+          <div class="section-kicker blue">Projects</div>
+          <h2>The work garden</h2>
+        </div>
+        <div class="filter-row" role="tablist" aria-label="Project filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="website">Websites</button>
+          <button class="filter" data-filter="brand">Brands</button>
+          <button class="filter" data-filter="school">School</button>
+        </div>
+      </div>
+      <div class="project-grid reveal delay-1">
+        <article class="project-card" data-type="brand" data-title="Fuelerz" data-desc="Goa-based website development, logo design, branding, ad design, and complete business identity work with speed and style.">
+          <div class="project-art fuelerz-art"><span>F</span></div><h3>Fuelerz</h3><p>Branding, websites, digital identity kits, and visual systems for businesses that need momentum.</p><button>Open case file</button>
+        </article>
+        <article class="project-card" data-type="website" data-title="Nesbakes" data-desc="A cafe identity and website direction with ordering, celebration visuals, and customer-friendly presentation.">
+          <div class="project-art nebula-art"><span>N</span></div><h3>Nesbakes</h3><p>Warm cafe visuals, celebration creatives, food-first presentation, and web-ready customer flow.</p><button>Open case file</button>
+        </article>
+        <article class="project-card" data-type="website" data-title="Man Cave Goa" data-desc="A bold local web presence shaped for style, clarity, and fast customer trust.">
+          <div class="project-art cave-art"><span>M</span></div><h3>Man Cave Goa</h3><p>A sharp local website identity designed to make a business feel confident at first glance.</p><button>Open case file</button>
+        </article>
+        <article class="project-card" data-type="website" data-title="ChaloSCF" data-desc="A student/community-style digital project tied to Sergio's identity शस्फ, built with a practical but energetic public presence.">
+          <div class="project-art scf-art"><span>श</span></div><h3>ChaloSCF</h3><p>A colourful youth-facing project carrying community energy, coded clarity, and the शस्फ signature.</p><button>Open case file</button>
+        </article>
+        <article class="project-card" data-type="website" data-title="Dove Nest" data-desc="A calm, hospitality-oriented web project with soft trust-building visuals and conversion-led structure.">
+          <div class="project-art dove-art"><span>D</span></div><h3>Dove Nest</h3><p>Soft hospitality web design with a peaceful structure and trust-first visitor journey.</p><button>Open case file</button>
+        </article>
+        <article class="project-card" data-type="website" data-title="Tanaa Foods" data-desc="A food brand website direction focused on appetite, product clarity, and mobile-friendly browsing.">
+          <div class="project-art tanaa-art"><span>T</span></div><h3>Tanaa Foods</h3><p>Food-brand presentation shaped around appetite, clear sections, and fast mobile browsing.</p><button>Open case file</button>
+        </article>
+        <article class="project-card" data-type="school" data-title="FAC Pillar Concepts" data-desc="A premium college website redesign direction with responsive layouts, living UI ideas, maps, history, and student-friendly structure.">
+          <div class="project-art pillar-art"><span>P</span></div><h3>FAC Pillar Concepts</h3><p>College website ideas with history, maps, responsive systems, and a human student-first mood.</p><button>Open case file</button>
+        </article>
+        <article class="project-card" data-type="brand" data-title="CBC Printing Concepts" data-desc="Modern printing-business web direction for xerox, laminating, vinyl, cards, and service pricing presentation.">
+          <div class="project-art cbc-art"><span>C</span></div><h3>CBC Printing Concepts</h3><p>Modern print-shop visuals for xerox, lamination, vinyl, cards, service grids, and pricing clarity.</p><button>Open case file</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="books" class="section-pad books-zone" data-section>
+      <div class="section-head reveal">
+        <div>
+          <div class="section-kicker gold">Books</div>
+          <h2>Two shelves. No filler.</h2>
+        </div>
+      </div>
+      <div class="books-grid">
+        <article class="book-card glass reveal">
+          <div class="book-tilt"><img src="ai-unlocked-cover.svg" alt="AI Unlocked book cover"></div>
+          <div><h3>AI Unlocked</h3><p>A practical, creator-focused dive into artificial intelligence — what it can do, what it cannot do, and how people can use it without losing their own thinking.</p><span>Technology • Creativity • Future skills</span></div>
+        </article>
+        <article class="book-card glass reveal delay-1">
+          <div class="book-tilt"><img src="controversial-characters-cover.svg" alt="Controversial Characters book cover"></div>
+          <div><h3>Controversial Characters</h3><p>A character-driven exploration of complicated minds, public reputations, rebellion, chaos, genius, and the uncomfortable magnetism of people who refuse to remain simple.</p><span>Psychology • History • Human contradiction</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="identities" class="section-pad" data-section>
+      <div class="section-head reveal">
+        <div>
+          <div class="section-kicker pink">Creative Identities</div>
+          <h2>Names that behave like different weather.</h2>
+        </div>
+      </div>
+      <div class="identity-grid reveal delay-1">
+        <article class="identity-card fuel"><span>⚡</span><h3>Fuelerz</h3><p>Energy. Performance. Drive. The business identity for websites, branding, ad design, and digital growth.</p></article>
+        <article class="identity-card dream"><span>☾</span><h3>ColourlessDreams</h3><p>Dream. Feel. Create. A softer identity for atmosphere, emotion, surreal visuals, and story-shaped design.</p></article>
+        <article class="identity-card autopsy"><span>☠</span><h3>SpecialAutopsy</h3><p>Dark. Bold. Fearless. A sharper identity for strange concepts, black humour, visual dissection, and raw style.</p></article>
+        <article class="identity-card colour"><span>▣</span><h3>ColourXD</h3><p>The public tag: Minecraft username, YouTube channel name, and the playful glitch of the whole ecosystem.</p></article>
+      </div>
+    </section>
+
+    <section id="services" class="section-pad services-zone" data-section>
+      <div class="section-head reveal">
+        <div>
+          <div class="section-kicker cyan">Services</div>
+          <h2>What the jungle builds</h2>
+        </div>
+      </div>
+      <div class="service-orbit reveal delay-1">
+        <article><span>⌁</span><h3>Web & UI/UX Design</h3><p>Responsive sites that feel custom, alive, and conversion-ready.</p></article>
+        <article><span>✦</span><h3>Branding & Identity</h3><p>Logos, names, colours, patterns, and systems that remember themselves.</p></article>
+        <article><span>✎</span><h3>Writing & Books</h3><p>Clean chapters, character psychology, emotional scenes, and sharp editing.</p></article>
+        <article><span>◈</span><h3>Digital Art Direction</h3><p>Visual concepts, posters, social creatives, and dark colourful brand worlds.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad contact-zone" data-section>
+      <div class="contact-panel glass reveal">
+        <div class="section-kicker gold">Contact</div>
+        <h2>Let’s create something that doesn’t look like it came from a template graveyard.</h2>
+        <p>For personal work, creative identities, collaborations, and ColourXD-related projects:</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:colourxd.23@gmail.com">Email colourxd.23@gmail.com</a>
+          <button class="btn ghost" id="copyEmail">Copy email</button>
+        </div>
+        <div class="contact-vines">
+          <span>YouTube: ColourXD</span>
+          <span>Minecraft: ColourXD</span>
+          <span>ColourlessDreams</span>
+          <span>SpecialAutopsy</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="mood-dock" aria-label="Theme moods">
+    <button data-mood="verdant" class="active" title="Verdant">●</button>
+    <button data-mood="dream" title="Dream">●</button>
+    <button data-mood="autopsy" title="Autopsy">●</button>
+    <button data-mood="solar" title="Solar">●</button>
+    <button data-mood="ocean" title="Ocean">●</button>
+  </div>
+
+  <dialog class="case-dialog" id="caseDialog">
+    <button class="dialog-close" aria-label="Close case file">×</button>
+    <p class="section-kicker cyan">Case File</p>
+    <h2 id="caseTitle"></h2>
+    <p id="caseDesc"></p>
+    <div class="case-lines"><span></span><span></span><span></span></div>
+  </dialog>
+
+  <div class="command-palette" id="commandPalette" hidden>
+    <div class="command-box glass" role="dialog" aria-modal="true" aria-label="Jump to a section">
+      <button class="command-close" id="commandClose" type="button" aria-label="Close command palette">×</button>
+      <label for="commandInput">Jump to anything</label>
+      <input id="commandInput" type="text" autocomplete="off" placeholder="Try projects, books, Fuelerz, ColourXD..." />
+      <div id="commandResults"></div>
+      <p class="command-hint">Enter opens the first result · Esc closes this window</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

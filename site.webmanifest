@@ -1,0 +1,15 @@
+{
+  "name": "Sergio Fernandes \u2014 ColourXD Portfolio",
+  "short_name": "ColourXD",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#030808",
+  "theme_color": "#06100f",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "120x120",
+      "type": "image/svg+xml"
+    }
+  ]
+}
